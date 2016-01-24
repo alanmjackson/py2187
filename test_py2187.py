@@ -101,7 +101,7 @@ class Test(unittest.TestCase):
 
     def test_moving_other_board_sizes(self):
 
-        game = py2187.Game(rows=5, cols=5)        
+        game = py2187.Game(rows=5, cols=5, merge_length=2)        
 
         board = [
                  [2,    None, None, None, None],
